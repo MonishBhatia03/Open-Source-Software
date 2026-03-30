@@ -10,7 +10,7 @@ set -u
 
 PACKAGE="${1:-}" # e.g. httpd, mysql, vlc, firefox
 
-SOFTWARE_CHOICE="${SOFTWARE_CHOICE:-YOUR_CHOSEN_SOFTWARE_HERE}"
+SOFTWARE_CHOICE="${SOFTWARE_CHOICE:-git}"
 
 if [ -z "$PACKAGE" ]; then
   echo "Error: missing package name."
