@@ -11,7 +11,7 @@
 set -u
 
 # You can override these using environment variables.
-SOFTWARE_CHOICE="${SOFTWARE_CHOICE:-YOUR_CHOSEN_SOFTWARE_HERE}"
+SOFTWARE_CHOICE="${SOFTWARE_CHOICE:-git}"
 
 # Optional argument:
 #   ./03_disk_permission_auditor.sh [config_dir]
